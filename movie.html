@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>My Favorite Movies Application</title>
+		<link rel="stylesheet" href="movie.css" />
+	</head>
+	<body>
+		<h1>My Favorite Movies Application!</h1>
+		<hr />
+		<form action="" id="movie-form">
+			<label for="title">Movie Title:</label>
+			<input
+				type="text"
+				name="title"
+				id="movie-title"
+				placeholder="Movie Title"
+			/>
+			<label for="rating">Movie Rating:</label>
+			<input
+				type="number"
+				name="rating"
+				id="movie-rating"
+				placeholder="Select 0-10!"
+			/>
+			<br />
+			<button class="submit" id="btn1">Add Movie!</button>
+		</form>
+		<hr />
+		<div class="movies"></div>
+		<script
+			src="https://code.jquery.com/jquery-3.7.1.min.js"
+			integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+			crossorigin="anonymous"
+		></script>
+		<script src="movie.js"></script>
+	</body>
+</html>

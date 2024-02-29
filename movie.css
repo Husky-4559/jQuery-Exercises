@@ -1,0 +1,30 @@
+div {
+	margin-top: 1em;
+}
+
+.error {
+	color: red;
+}
+
+form {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+}
+
+.submit {
+	margin-left: 1em;
+	font-weight: bold;
+	font-style: normal, white;
+}
+
+.movie-details {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+}
+
+.rmbutton {
+	margin-left: 1em;
+	font-weight: bold;
+	border: 1px;
+	padding: 0em, 1em;
+}
